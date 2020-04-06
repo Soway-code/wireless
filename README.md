@@ -19,3 +19,14 @@ wireless -->  NB-iot；LoRa,Zigbee,433Mhz etc
 
 NOTE :  今天（2020-4-6 无线项目部署了RT-Thread的CI集成,编程环境是RT-Thread）
 
+##### 目录结构
+
+\  bsp   ---------支持包
+
+\components   ---------组件
+
+\include   -------------头文件
+
+\libcpu  -----------芯片库文件
+
+\src  ------------代码
