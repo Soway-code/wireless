@@ -21,12 +21,14 @@ NOTE :  今天（2020-4-6 无线项目部署了RT-Thread的CI集成,编程环境
 
 ##### 目录结构
 
-\  bsp   ---------支持包
+\  applications   ---------应用代码
 
-\components   ---------组件
+\ board   ---------板级支持包
 
-\include   -------------头文件
+\ packages   ------------组件包
 
-\libcpu  -----------芯片库文件
+\ rt-thread -----------RT-Thread代码
 
-\src  ------------代码
+\ setting  ------------设置
+
+\ libraries ---------库文件
