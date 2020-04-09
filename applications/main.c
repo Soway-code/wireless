@@ -30,7 +30,7 @@ int main(void)
     {
 		 // rt_thread_mdelay(10000);
 		//	rt_kprintf("rtt_comein!!!\n");
-		  break ;
+		  break;
 		//	tcpclient("soway_sensor");
      /*   rt_pin_write(LED0_PIN, PIN_HIGH);
         rt_thread_mdelay(5000);

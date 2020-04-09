@@ -10,8 +10,8 @@
  *
  * Change Logs:
  * Date           Author       Notes
- * 2020-03-13     frank       first version
- * 2020-03-26     frank       add semaphore
+ * 2020-03-13     frankliu       first version
+ * 2020-03-26     frankliu       add semaphore
  */
 
 #include <rtthread.h>
