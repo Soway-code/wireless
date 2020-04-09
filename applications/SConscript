@@ -1,0 +1,15 @@
+import rtconfig
+from building import *
+
+cwd     = GetCurrentDir()
+src     = Split("""
+main.c
+Swy_nbapp.c
+Swy_timer_app.c
+""")
+path = [cwd]
+
+group = DefineGroup('Applications', src, depend = [''], CPPPATH = path)
+
+
+Return('group')
