@@ -11,12 +11,17 @@
  * Change Logs:
  * Date           Author       Notes
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 2020-03-13     frank       first version
  * 2020-03-26     frank       add semaphore
 =======
  * 2020-03-13     frankliu       first version
  * 2020-03-26     frankliu       add semaphore
 >>>>>>> aace7902e864f9c74aed1993ae92280333b588ee
+=======
+ * 2020-03-13     frank       first version
+ * 2020-03-26     frank       add semaphore
+>>>>>>> 39a5045071fe2516152064d447481b2224e60205
  */
 
 #include <rtthread.h>

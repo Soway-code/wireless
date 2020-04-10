@@ -31,10 +31,14 @@ int main(void)
 		 // rt_thread_mdelay(10000);
 		//	rt_kprintf("rtt_comein!!!\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
 		  break ;
 =======
 		  break;
 >>>>>>> aace7902e864f9c74aed1993ae92280333b588ee
+=======
+		  break ;
+>>>>>>> 39a5045071fe2516152064d447481b2224e60205
 		//	tcpclient("soway_sensor");
      /*   rt_pin_write(LED0_PIN, PIN_HIGH);
         rt_thread_mdelay(5000);
