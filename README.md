@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> develop
-=======
->>>>>>> liujq111-job_develop
+
 # STM32H743-atk-apollo 开发板 BSP 说明
 
 ## 简介
