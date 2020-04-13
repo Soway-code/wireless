@@ -12,6 +12,7 @@
  * Date           Author       Notes
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 2020-03-13     frank       first version
  * 2020-03-26     frank       add semaphore
 =======
@@ -22,6 +23,10 @@
  * 2020-03-13     frank       first version
  * 2020-03-26     frank       add semaphore
 >>>>>>> 39a5045071fe2516152064d447481b2224e60205
+=======
+ * 2020-03-13     frank       first version
+ * 2020-03-26     frank       add semaphore
+>>>>>>> develop
  */
 
 #include <rtthread.h>

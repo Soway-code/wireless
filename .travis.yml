@@ -2,12 +2,18 @@ language: c
 
 notifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
         email:
 	   on_success: always
 	   on_failure: always
 =======
   email: false
 >>>>>>> 39a5045071fe2516152064d447481b2224e60205
+=======
+        email:
+	   on_success: always
+	   on_failure: always
+>>>>>>> develop
 
 before_script:
 # travis has changed to 64-bit and we require 32-bit compatibility libraries
@@ -35,6 +41,7 @@ env:
   - RTT_BSP='at91sam9260' RTT_TOOL_CHAIN='sourcery-arm'
   - RTT_BSP='allwinner_tina' RTT_TOOL_CHAIN='sourcery-arm'
 #  - RTT_BSP='avr32uc3b0' RTT_TOOL_CHAIN='atmel-avr32'
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -71,6 +78,10 @@ env:
   - RTT_BSP='qemu-vexpress-a9' RTT_TOOL_CHAIN='sourcery-arm'
   - RTT_BSP='sam7x' RTT_TOOL_CHAIN='sourcery-arm'
 >>>>>>> 39a5045071fe2516152064d447481b2224e60205
+=======
+
+
+>>>>>>> develop
 #  - RTT_BSP='simulator' # x86
   - RTT_BSP='stm32f0x' RTT_TOOL_CHAIN='sourcery-arm' 
   - RTT_BSP='stm32l072' RTT_TOOL_CHAIN='sourcery-arm' 

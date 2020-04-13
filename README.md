@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> develop
 # STM32H743-atk-apollo 开发板 BSP 说明
 
 ## 简介
@@ -123,6 +126,7 @@ msh >
 
 维护人:
 
+<<<<<<< HEAD
 -  [whj4674672](https://github.com/whj4674672), 邮箱：<whj4674672@163.com>
 =======
 # wireless
@@ -160,3 +164,6 @@ NOTE :  今天（2020-4-6 无线项目部署了RT-Thread的CI集成,编程环境
 
 \ libraries ---------库文件
 >>>>>>> 39a5045071fe2516152064d447481b2224e60205
+=======
+-  [whj4674672](https://github.com/whj4674672), 邮箱：<whj4674672@163.com>
+>>>>>>> develop
