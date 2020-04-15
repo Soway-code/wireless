@@ -1,19 +1,11 @@
 language: c
 
 notifications:
-<<<<<<< HEAD
-<<<<<<< HEAD
         email:
 	   on_success: always
 	   on_failure: always
-=======
+
   email: false
->>>>>>> 39a5045071fe2516152064d447481b2224e60205
-=======
-        email:
-	   on_success: always
-	   on_failure: always
->>>>>>> develop
 
 before_script:
 # travis has changed to 64-bit and we require 32-bit compatibility libraries
@@ -35,53 +27,6 @@ script:
 
 env:
 #  - RTT_BSP='simulator' RTT_CC='clang-analyze' RTT_EXEC_PATH=/usr/share/clang/scan-build
-  - RTT_BSP='CME_M7' RTT_TOOL_CHAIN='sourcery-arm'
-#  - RTT_BSP='apollo2' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='asm9260t' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='at91sam9260' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='allwinner_tina' RTT_TOOL_CHAIN='sourcery-arm'
-#  - RTT_BSP='avr32uc3b0' RTT_TOOL_CHAIN='atmel-avr32'
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-=======
-#  - RTT_BSP='bf533' # no scons
-  - RTT_BSP='efm32' RTT_TOOL_CHAIN='sourcery-arm' 
-#  - RTT_BSP='gd32450z-eval' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='lm3s8962' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='lm3s9b9x' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='lm4f232' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='tm4c129x' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='lpc176x' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='lpc178x' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='lpc2148' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='lpc2478' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='xplorer4330/M4' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='lpc43xx/M4' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='lpc408x' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='lpc5410x' RTT_TOOL_CHAIN='sourcery-arm'
-#  - RTT_BSP='lpc54608-LPCXpresso' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='ls1bdev' RTT_TOOL_CHAIN='sourcery-mips'
-  - RTT_BSP='ls1cdev' RTT_TOOL_CHAIN='sourcery-mips'
-  - RTT_BSP='imx6sx/cortex-a9' RTT_TOOL_CHAIN='sourcery-arm' 
-#  - RTT_BSP='m16c62p' # m32c
-  - RTT_BSP='mb9bf500r' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='mb9bf506r' RTT_TOOL_CHAIN='sourcery-arm' 
-  - RTT_BSP='mb9bf618s' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='mb9bf568r' RTT_TOOL_CHAIN='sourcery-arm'
-#  - RTT_BSP='microblaze' # no scons
-  - RTT_BSP='mini2440' RTT_TOOL_CHAIN='sourcery-arm' 
-#  - RTT_BSP='mini4020' # no scons
-#  - RTT_BSP='nios_ii' # no scons
-#  - RTT_BSP='pic32ethernet' # no scons
-  - RTT_BSP='qemu-vexpress-a9' RTT_TOOL_CHAIN='sourcery-arm'
-  - RTT_BSP='sam7x' RTT_TOOL_CHAIN='sourcery-arm'
->>>>>>> 39a5045071fe2516152064d447481b2224e60205
-=======
-
-
->>>>>>> develop
 #  - RTT_BSP='simulator' # x86
   - RTT_BSP='stm32f0x' RTT_TOOL_CHAIN='sourcery-arm' 
   - RTT_BSP='stm32l072' RTT_TOOL_CHAIN='sourcery-arm' 
