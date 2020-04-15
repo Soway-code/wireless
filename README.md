@@ -1,3 +1,9 @@
+<a href="https://scan.coverity.com/projects/soway-code-direct-sensor">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/20845/badge.svg"/>
+</a>
+
+
 
 # STM32H743-atk-apollo 开发板 BSP 说明
 
