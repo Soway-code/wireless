@@ -23,7 +23,7 @@ before_script:
   - "[ x$RTT_CC == x ] && export RTT_CC='gcc' || true"
 
 script:
-  - scons -C bsp/$RTT_BSP
+#  - scons -C bsp/$RTT_BSP
 
 env:
 #  - RTT_BSP='simulator' RTT_CC='clang-analyze' RTT_EXEC_PATH=/usr/share/clang/scan-build
