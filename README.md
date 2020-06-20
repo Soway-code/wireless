@@ -1,4 +1,17 @@
 #                         code-review
+
+<a href="https://frontend.code-inspector.com/projects/soway-code-direct-sensor">
+  <img alt="Code inspector Code Quality Score "
+       src="https://www.code-inspector.com/project/9930/score/svg"/>
+</a>
+
+<a href="https://frontend.code-inspector.com/projects/soway-code-direct-sensor">
+  <img alt="Code inspector Code Quality Score "
+       src="https://www.code-inspector.com/project/9930/status/svg"/>
+</a>
+
+
+
 [![Build Status](https://travis-ci.com/loodao/helloworld.svg?branch=master)](https://travis-ci.com/loodao/helloworld)
 
 
